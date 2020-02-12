@@ -34,6 +34,7 @@ Zhuzhou.city 系列 左上角 Drawer 背景图用的 Page-4
 从 https://bike.zhuzhou.city/dev 来看至少是 2017/08 左右存的了……
 今天都 2020/02/12 了~
 ```
+> Bike Drawer Background Image
 ![Bike Drawer Background Image](https://lqzhgood.github.io/Shmily/other/bikebg.jpg)
 <br/>
 > 生活难免有风风雨雨
