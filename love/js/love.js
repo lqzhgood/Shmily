@@ -1,22 +1,25 @@
 /* eslint-disable */
-var firstBgm = true;
-function onNavigation(e) {
-    if (firstBgm) {
-        var bgmMusic = document.getElementById("bgmMusic");
-        if (bgmMusic.paused) {
-            bgmMusic.play();
-        }
-        firstBgm = false;
-    }
-    // maybe is Original author test legacy
-    // if (e.progress == 2) {
-    //     player.pause();
-    // }
-}
-Flowtime.showProgress(true);
-Flowtime.start();
-Flowtime.addEventListener("flowtimenavigation", onNavigation, false);
 $(function () {
+    var firstBgm = true;
+    function onNavigation(e) {
+        if (firstBgm) {
+            var bgmMusic = document.getElementById("bgmMusic");
+            if (bgmMusic.paused) {
+                bgmMusic.play();
+            }
+            firstBgm = false;
+        }
+        // maybe is Original author test legacy
+        // if (e.progress == 2) {
+        //     player.pause();
+        // }
+    }
+    Flowtime.showProgress(true);
+    Flowtime.start();
+    Flowtime.addEventListener("flowtimenavigation", onNavigation, false);
+
+
+
     var URL = document.URL.substr(0, document.URL.indexOf('#'));
     setInterval(function () {
         $(".showtip").removeClass("showtip").hide().siblings("span").addClass("showtip").fadeIn();
