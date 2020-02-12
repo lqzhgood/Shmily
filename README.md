@@ -24,11 +24,26 @@ while('What should I say?'){
 <br/>
 <p style="text-indent:2em;">仓鼠症的我又不忍心删~ </p>
 <p style="text-indent:2em;">就存在这个仓库吧……</p>
+<br/>
+
+##### by the way
+```
+Zhuzhou.city 系列 左上角 Drawer 背景图用的 Page-4
+那可能是做 Zhuzhou.bike 的时候找到这个网站的吧
+顺便觉得那图不错 就用来做背景了。
+从 https://bike.zhuzhou.city/dev 来看至少是 2017/08 左右存的了……
+今天都 2020/02/12 了~
+```
+![Bike Drawer Background Image](https://lqzhgood.github.io/Shmily/other/bikebg.jpg)
+<br/>
+![Page-4](https://lqzhgood.github.io/Shmily/love/img/iali51.jpg)
+
+
+
+
 
 
 <br/><br/><br/>
-
-
 
 ### 情人节表白程序
 原作者已不可考 保留了注释里写的
