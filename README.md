@@ -36,6 +36,7 @@ Zhuzhou.city 系列 左上角 Drawer 背景图用的 Page-4
 ```
 ![Bike Drawer Background Image](https://lqzhgood.github.io/Shmily/other/bikebg.jpg)
 <br/>
+> 生活难免有风风雨雨
 ![Page-4](https://lqzhgood.github.io/Shmily/love/img/iali51.jpg)
 
 
