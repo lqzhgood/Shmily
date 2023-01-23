@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "serve": "vitepress serve docs"
+    },
+    "dependencies": {
+        "vitepress": "^1.0.0-alpha.40",
+        "vue": "^3.2.45"
+    },
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=16.0.0"
+    }
+}
