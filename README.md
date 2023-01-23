@@ -1,3 +1,3 @@
 # Shmily
 
-搞个大事情 施工中...
+文档地址 http://lqzhgood.github.io/Shmily
