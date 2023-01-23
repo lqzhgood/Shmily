@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-    base: '/',
+    base: '/Shmily/',
     lastUpdated: true,
 
     title: 'Shmily',
