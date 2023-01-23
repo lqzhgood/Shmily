@@ -13,10 +13,11 @@ export default defineConfig({
         nav: [{ text: 'Demo', link: 'http://demo.shmily.lqzh.me/' }],
         sidebar: [
             {
-                text: '介绍',
+                text: '指南',
                 items: [
-                    { text: '这是啥', link: '/waht-is' },
-                    { text: '理念', link: '/concept' },
+                    { text: '这是啥', link: '/guide/what-is' },
+                    { text: '理念', link: '/guide/concept' },
+                    { text: '使用说明', link: '/guide/use' },
                 ],
             },
             {
