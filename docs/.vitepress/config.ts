@@ -4,6 +4,8 @@ export default defineConfig({
     base: '/Shmily/',
     lastUpdated: true,
 
+    head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
+
     title: 'Shmily',
     lang: 'zh-Hans-CN',
     description: 'Shmily docs',
@@ -17,43 +19,17 @@ export default defineConfig({
                 items: [
                     { text: '这是啥', link: '/guide/what-is' },
                     { text: '理念', link: '/guide/concept' },
-                    { text: '使用说明', link: '/guide/use' },
                 ],
             },
             {
-                text: 'Get',
+                text: '使用说明',
                 items: [
-                    {
-                        text: 'Call_SMS',
-                        items: [
-                            { text: 'Android', link: 'https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android' },
-                            {
-                                text: 'GoogleCalendar',
-                                link: 'https://github.com/lqzhgood/Shmily-Get-Call_SMS-calendar_google_com',
-                            },
-                            { text: 'Item C', link: '/item-3' },
-                        ],
-                    },
-                    { text: 'Camera', link: '/item-2' },
-                    { text: 'EMAIL', link: '/item-3' },
-                    // {
-                    //     text: 'QQ',
-                    //     items: [
-                    //         { text: 'Mo', link: '/item-1' },
-                    //         { text: 'Item B', link: '/item-2' },
-                    //         { text: 'Item C', link: '/item-3' },
-                    //     ],
-                    // },
-                    // {
-                    //     text: 'Wechat',
-                    //     items: [
-                    //         { text: 'Mo', link: '/item-1' },
-                    //         { text: 'Item B', link: '/item-2' },
-                    //         { text: 'Item C', link: '/item-3' },
-                    //     ],
-                    // },
+                    { text: 'Get', link: '/guide/use/get' },
+                    { text: 'Merger', link: '/guide/use/merger' },
+                    { text: 'Show', link: '/guide/use/show' },
                 ],
             },
+
             {
                 text: 'Merger',
                 items: [
@@ -75,8 +51,18 @@ export default defineConfig({
                     { text: 'Server-Modify', link: '/getting-started' },
                 ],
             },
+            {
+                text: '安装运行时环境',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    { text: 'nodejs', link: '/guide/setup-runtime/nodejs' },
+                    { text: 'python', link: '/guide/setup-runtime/python' },
+                    { text: 'java', link: '/guide/setup-runtime/java' },
+                ],
+            },
         ],
-        outlineTitle: 'In hac pagina',
+        outlineTitle: '这一页',
         socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
         footer: {
             message: 'GPLv3 License.',
