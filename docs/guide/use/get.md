@@ -6,15 +6,16 @@
 
 下面列出现有已知的 Get 项目, 更多项目可在 `Github` 搜索 [`Shmily-Get-`](https://github.com/search?q=Shmily-Get-&type=repositories)
 
--   QQ
--   微信 Wechat
--   [Call_SMS] 短信与通话记录
+-   `QQ` QQ 电脑版
+-   `MobileQQ` QQ 手机版
+-   `Wechat` 微信
+-   `Call_SMS` 短信与通话记录
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android)
     -   [GoogleCalendar](https://github.com/lqzhgood/Shmily-Get-Call_SMS-calendar_google_com)
     -   [QQ 同步助手](https://github.com/lqzhgood/Shmily-Get-Call_SMS-ic_qq_com)
     -   [Nokia Symbian S60v3 彩信](https://github.com/lqzhgood/Shmily-Get-Call_SMS-S60v3_MMS)
     -   [Nokia Symbian S60v3 短信](https://github.com/lqzhgood/Shmily-Get-Call_SMS-S60v3_SMS)
--   [Camera] 照片与视频
+-   `Camera` 照片与视频
     -   [照片与视频](https://github.com/lqzhgood/Shmily-Get-Camera)
 
 ## 如何启动项目
