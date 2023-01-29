@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.8d5c3eda.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/use/merger.md","lastUpdated":1674929253000}'),a={name:"guide/use/merger.md"};function s(o,c,n,d,p,i){return r(),t("div")}const u=e(a,[["render",s]]);export{_ as __pageData,u as default};
