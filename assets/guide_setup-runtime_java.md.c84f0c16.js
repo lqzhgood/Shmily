@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.8d5c3eda.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/setup-runtime/java.md","lastUpdated":1675011795000}'),r={name:"guide/setup-runtime/java.md"};function s(n,o,c,p,d,i){return a(),t("div")}const u=e(r,[["render",s]]);export{m as __pageData,u as default};
