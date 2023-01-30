@@ -18,6 +18,7 @@
 -   `Camera` 照片与视频
     -   [照片与视频](https://github.com/lqzhgood/Shmily-Get-Camera)
 -   `EMAIL` 电子邮件
+    -   [电子邮件](https://github.com/lqzhgood/Shmily-Get-Email)
 
 ## 如何启动项目
 
