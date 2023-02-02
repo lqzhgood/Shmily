@@ -7,8 +7,21 @@
 下面列出现有已知的 Get 项目, 更多项目可在 `Github` 搜索 [`Shmily-Get-`](https://github.com/search?q=Shmily-Get-&type=repositories)
 
 -   `QQ` QQ 电脑版
+
+    -   [mht 格式聊天记录](https://github.com/lqzhgood/https://github.com/lqzhgood/Shmily-Get-QQ-PC_MHT)
+    -   [通过剪贴板导出](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard)
+
+    > 最后数据还需通过 [utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+
 -   `MobileQQ` QQ 手机版
+
+    -   [Andriod](https://github.com/lqzhgood/Shmily-Get-MobileQQ-Andriod)
+    -   [Nokia Symbian S60v3](https://github.com/lqzhgood/Shmily-Get-MobileQQ-S60v3)
+
+    > 最后数据还需通过 [utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+
 -   `Wechat` 微信
+    -   [Andriod](https://github.com/lqzhgood/Shmily-Get-Wechat-Andriod)
 -   `SMS` `CallLog` 短信与通话记录
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android)
     -   [GoogleCalendar](https://github.com/lqzhgood/Shmily-Get-Call_SMS-calendar_google_com)
