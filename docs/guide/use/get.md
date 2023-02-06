@@ -1,6 +1,9 @@
 # Get
 
-根据相应的 Get 项目, 获得 `{msg}.json` 文件
+根据相应的 Get 项目, 获得
+
+-   `数据文件` \*\*\*.json
+-   `资源文件` /data/xxx
 
 ## 支持列表
 
@@ -21,7 +24,7 @@
     > 最后数据还需通过 [utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 
 -   `Wechat` 微信
-    -   [Andriod](https://github.com/lqzhgood/Shmily-Get-Wechat-Andriod)
+    -   [Android](https://github.com/lqzhgood/Shmily-Get-Wechat-Android)
 -   `SMS` `CallLog` 短信与通话记录
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android)
     -   [GoogleCalendar](https://github.com/lqzhgood/Shmily-Get-Call_SMS-calendar_google_com)
