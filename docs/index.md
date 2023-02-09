@@ -14,7 +14,7 @@ hero:
           link: /guide/what-is
         # - theme: alt
         #   text: View on GitHub
-        #   link: https://github.com/vuejs/vitepress
+        #   link: https://github.com/lqzhgood/Shmily
 
 features:
     - icon: ⚡️

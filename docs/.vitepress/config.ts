@@ -63,13 +63,13 @@ export default defineConfig({
             },
         ],
         outlineTitle: '这一页',
-        socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/lqzhgood/Shmily' }],
         footer: {
             message: 'GPLv3 License.',
             copyright: 'Made by lqzh, Powered by <span style="color:red">♥</span>',
         },
         editLink: {
-            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+            pattern: 'https://github.com/lqzhgood/Shmily/edit/main/docs/:path',
             text: 'Edit this page on GitHub',
         },
         lastUpdatedText: 'Updated Date',
