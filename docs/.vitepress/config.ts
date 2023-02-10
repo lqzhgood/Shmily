@@ -7,7 +7,7 @@ export default defineConfig({
     lastUpdated: true,
 
     head: [
-        ['link', { rel: 'icon', type: 'image/png', href: `/${base}/favicon.png` }],
+        ['link', { rel: 'icon', type: 'image/png', href: `${base}favicon.png` }],
         [
             'script',
             {},
