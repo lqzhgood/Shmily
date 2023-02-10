@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress';
 
+const base = '/Shmily/';
+
 export default defineConfig({
-    base: '/Shmily/',
+    base,
     lastUpdated: true,
 
     head: [
-        ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+        ['link', { rel: 'icon', type: 'image/png', href: `/${base}/favicon.png` }],
         [
             'script',
             {},
