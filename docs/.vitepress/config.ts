@@ -22,26 +22,18 @@ export default defineConfig({
                 ],
             },
             {
+                text: '数据格式',
+                items: [
+                    { text: 'Shmily-Msg', link: '/guide/use/msg' },
+                    { text: 'Shmily-Data', link: '/guide/use/data' },
+                ],
+            },
+            {
                 text: '使用说明',
                 items: [
                     { text: 'Get', link: '/guide/use/get' },
                     { text: 'Merger', link: '/guide/use/merger' },
                     { text: 'Show', link: '/guide/use/show' },
-                ],
-            },
-
-            {
-                text: 'Merger',
-                items: [
-                    { text: '这是啥', link: '/waht-is' },
-                    { text: '理念', link: '/concept' },
-                ],
-            },
-            {
-                text: 'Show',
-                items: [
-                    { text: 'Web', link: '/introduction' },
-                    { text: 'Server-Modify', link: '/getting-started' },
                 ],
             },
             {
@@ -59,6 +51,13 @@ export default defineConfig({
                     { text: 'nodejs', link: '/guide/setup-runtime/nodejs' },
                     { text: 'python', link: '/guide/setup-runtime/python' },
                     { text: 'java', link: '/guide/setup-runtime/java' },
+                ],
+            },
+            {
+                text: '其他',
+                items: [
+                    { text: '感谢', link: '/guide/other/thanks' },
+                    { text: '捐赠', link: '/guide/other/donation' },
                 ],
             },
         ],

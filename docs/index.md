@@ -12,9 +12,9 @@ hero:
         - theme: brand
           text: Get Started
           link: /guide/what-is
-        # - theme: alt
-        #   text: View on GitHub
-        #   link: https://github.com/lqzhgood/Shmily
+        - theme: alt
+          text: Demo
+          link: http://demo.shmily.lqzh.me/
 
 features:
     - icon: ⚡️
