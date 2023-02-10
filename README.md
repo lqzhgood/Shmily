@@ -2,6 +2,8 @@
 
 这是一个 ( QQ Wechat 短信 通话记录 照片 等) 记录归档的项目.
 
+这里是本项目的主文档目录
+
 ## 地址
 
 文档地址 http://lqzhgood.github.io/Shmily

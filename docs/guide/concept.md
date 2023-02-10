@@ -57,6 +57,10 @@ MobileQQ: 导出数据库 ->              解密资源(图片等)               
 -   展示部分脱离传统 HTML 模板, 使用现代 Web 框架后展示上有了更多可能性. 更多 `Show` 的问答参考 [Shmily-Show/docs/Q_A.md](https://github.com/lqzhgood/Shmily-Show/blob/main/docs/Q_A.md)
 -   各种各样的 Get 都可以融合在一个 Show 中时间线展示
 
+### 问题
+
+拆分后势必增加运行成本, 我希望通过批处理等脚本方式粘合各个库之间的运行, 尽量做到开箱即用. 也会完善文档让非程序员也能阅读明白, 如有不懂之处, 欢迎 Github 提 [issues](https://github.com/lqzhgood/Shmily/issues/new).
+
 ### 感想
 
 花了近 3 年用 JS 写了一大堆的 [Get](./use/get.md), 我发现还是原生语言开发最方便, 如 MobileQQ 中 `Java Serializable` 的[问题](https://github.com/ZhangJun2017/QQChatHistoryExporter/issues/4) 用 `JS` 太难了, 所以以后我还是希望由开源社区贡献与维护 [Get](./use/get.md), 我会尽力维护 [Show](https://github.com/lqzhgood/Shmily-Show) 部分.
