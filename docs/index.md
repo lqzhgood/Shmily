@@ -15,14 +15,14 @@ hero:
         - theme: alt
           text: Demo
           link: http://demo.shmily.lqzh.me/
-# features:
-#     - icon: ⚡️
-#       title: Vite, The DX that can't be beat
-#       details: Lorem ipsum...
-#     - icon: 🖖
-#       title: Power of Vue meets Markdown
-#       details: Lorem ipsum...
-#     - icon: 🛠️
-#       title: Simple and minimal, always
-#       details: Lorem ipsum...
+features:
+    - icon: 🎯
+      title: 多来源
+      details: 时间线合并查看
+    - icon: 🛠️
+      title: 可编辑与评论
+      details: 给历史做上标记
+    - icon: 📈
+      title: 大数据图表统计
+      details: 换个角度看看
 ---
