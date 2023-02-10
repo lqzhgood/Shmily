@@ -4,7 +4,22 @@ export default defineConfig({
     base: '/Shmily/',
     lastUpdated: true,
 
-    head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
+    head: [
+        ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+        [
+            'script',
+            {},
+            `
+                var _hmt = _hmt || [];
+                (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?60e54595ff123446b362c8cc5d3c0617";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+                })();
+            `,
+        ],
+    ],
 
     title: 'Shmily',
     lang: 'zh-Hans-CN',
