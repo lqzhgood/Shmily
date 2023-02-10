@@ -52,13 +52,6 @@ export default defineConfig({
                 ],
             },
             {
-                text: 'Utils',
-                items: [
-                    { text: 'Web', link: '/introduction' },
-                    { text: 'Server-Modify', link: '/getting-started' },
-                ],
-            },
-            {
                 text: '安装运行时环境',
                 collapsible: true,
                 collapsed: true,
