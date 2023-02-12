@@ -33,26 +33,29 @@
         // 数据库原始数据导出
         // 保留所有相关的数据,不要进行删减, 给他人留下'其他'可能性
         // 也给完整解密留下空间
-        // 不差这么点空间
+        // 导出时不差这么点空间
         "raw": {
             "msgData": {"type": "Buffer"},
-            ……
+            ...
         },
 
-        // 解密后的数据
-        "decode": {
-            msgData:{} // 数据库相应字段解密
-
-            // 解密过程中有帮助的值或备注
+        // 解密过程中有帮助的值或备注
+        "key":{
             key: '123123',
             offset: 10,
+            ...
+        }
+
+        // 最终数据
+        "res": {
+            msgData:{} // 数据库相应字段解密
             ...
         }
 
         // 前端展示需要的数据
         // 简单的数据可以直接写 html 字段
         // 复杂的如 微信分享卡片 建议在 Show 中写好组件, 然后读取下面数据填充
-        data:{
+        "data":{
             "webUrl": "/data/qq-android-lqzh/emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif",
             "packName": "甜橙少女新年系列",
             "desc": "吃饺子",
@@ -60,7 +63,7 @@
         },
 
         // 资源文件 根文件夹   /data/ $rootPath /emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif
-        rootPath: `qq-android-lqzh`,
+        "rootPath": `qq-android-lqzh`,
     },
 
     // 开发过程相关值,
