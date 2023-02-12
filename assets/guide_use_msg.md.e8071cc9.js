@@ -1,4 +1,4 @@
-import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{"title":"数据文件","description":"","frontmatter":{},"headers":[],"relativePath":"guide/use/msg.md","lastUpdated":1676172138000}'),o={name:"guide/use/msg.md"},p=l(`<h1 id="数据文件" tabindex="-1">数据文件 <a class="header-anchor" href="#数据文件" aria-hidden="true">#</a></h1><p>为了 <a href="./get.html">Get</a> 和 <a href="./show.html">Show</a> 的良好沟通, 所以需要标准化数据格式</p><div class="language-json"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki material-palenight"><code><span class="line"><span style="color:#89DDFF;">[{</span></span>
+import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{"title":"数据文件","description":"","frontmatter":{},"headers":[],"relativePath":"guide/use/msg.md","lastUpdated":1676180434000}'),o={name:"guide/use/msg.md"},p=l(`<h1 id="数据文件" tabindex="-1">数据文件 <a class="header-anchor" href="#数据文件" aria-hidden="true">#</a></h1><p>为了 <a href="./get.html">Get</a> 和 <a href="./show.html">Show</a> 的良好沟通, 所以需要标准化数据格式</p><div class="language-json"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki material-palenight"><code><span class="line"><span style="color:#89DDFF;">[{</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">    ⬇⬇⬇⬇⬇⬇  通用字段 ⬇⬇⬇⬇⬇⬇⬇</span></span>
 <span class="line"></span>
@@ -36,14 +36,14 @@ import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 解密过程中有帮助的值或备注</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#FFCB6B;">key</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:{</span></span>
-<span class="line"><span style="color:#A6ACCD;">            key</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> &#39;</span><span style="color:#F78C6C;">123123</span><span style="color:#A6ACCD;">&#39;</span><span style="color:#89DDFF;">,</span></span>
-<span class="line"><span style="color:#A6ACCD;">            offset</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#F78C6C;">10</span><span style="color:#89DDFF;">,</span></span>
+<span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">key</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">123123</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">,</span></span>
+<span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">offset</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#F78C6C;">10</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#A6ACCD;">            ...</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 最终数据</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">res</span><span style="color:#89DDFF;">&quot;</span><span style="color:#A6ACCD;">: </span><span style="color:#89DDFF;">{</span></span>
-<span class="line"><span style="color:#A6ACCD;">            msgData</span><span style="color:#89DDFF;">:{}</span><span style="color:#A6ACCD;"> </span><span style="color:#676E95;font-style:italic;">// 数据库相应字段解密</span></span>
+<span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">msgData</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:{}</span><span style="color:#A6ACCD;"> </span><span style="color:#676E95;font-style:italic;">// 相应解密字段</span></span>
 <span class="line"><span style="color:#A6ACCD;">            ...</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span>
