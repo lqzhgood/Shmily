@@ -1,4 +1,4 @@
-import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{"title":"数据文件","description":"","frontmatter":{},"headers":[],"relativePath":"guide/use/msg.md","lastUpdated":1676099168000}'),o={name:"guide/use/msg.md"},p=l(`<h1 id="数据文件" tabindex="-1">数据文件 <a class="header-anchor" href="#数据文件" aria-hidden="true">#</a></h1><p>为了 <a href="./get.html">Get</a> 和 <a href="./show.html">Show</a> 的良好沟通, 所以需要标准化数据格式</p><div class="language-json"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki material-palenight"><code><span class="line"><span style="color:#89DDFF;">[{</span></span>
+import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{"title":"数据文件","description":"","frontmatter":{},"headers":[],"relativePath":"guide/use/msg.md","lastUpdated":1676172138000}'),o={name:"guide/use/msg.md"},p=l(`<h1 id="数据文件" tabindex="-1">数据文件 <a class="header-anchor" href="#数据文件" aria-hidden="true">#</a></h1><p>为了 <a href="./get.html">Get</a> 和 <a href="./show.html">Show</a> 的良好沟通, 所以需要标准化数据格式</p><div class="language-json"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki material-palenight"><code><span class="line"><span style="color:#89DDFF;">[{</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">    ⬇⬇⬇⬇⬇⬇  通用字段 ⬇⬇⬇⬇⬇⬇⬇</span></span>
 <span class="line"></span>
@@ -28,26 +28,29 @@ import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 数据库原始数据导出</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 保留所有相关的数据,不要进行删减, 给他人留下&#39;其他&#39;可能性</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 也给完整解密留下空间</span></span>
-<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 不差这么点空间</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 导出时不差这么点空间</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#FFCB6B;">raw</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
 <span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">msgData</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span><span style="color:#89DDFF;">&quot;</span><span style="color:#F07178;">type</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">Buffer</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">},</span></span>
-<span class="line"><span style="color:#A6ACCD;">            ……</span></span>
+<span class="line"><span style="color:#A6ACCD;">            ...</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">},</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 解密后的数据</span></span>
-<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#FFCB6B;">decode</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
-<span class="line"><span style="color:#A6ACCD;">            msgData</span><span style="color:#89DDFF;">:{}</span><span style="color:#A6ACCD;"> </span><span style="color:#676E95;font-style:italic;">// 数据库相应字段解密</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#676E95;font-style:italic;">// 解密过程中有帮助的值或备注</span></span>
-<span class="line"><span style="color:#A6ACCD;">            key: &#39;</span><span style="color:#F78C6C;">123123</span><span style="color:#A6ACCD;">&#39;</span><span style="color:#89DDFF;">,</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 解密过程中有帮助的值或备注</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#FFCB6B;">key</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:{</span></span>
+<span class="line"><span style="color:#A6ACCD;">            key</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> &#39;</span><span style="color:#F78C6C;">123123</span><span style="color:#A6ACCD;">&#39;</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#A6ACCD;">            offset</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#F78C6C;">10</span><span style="color:#89DDFF;">,</span></span>
+<span class="line"><span style="color:#A6ACCD;">            ...</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 最终数据</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">res</span><span style="color:#89DDFF;">&quot;</span><span style="color:#A6ACCD;">: </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#A6ACCD;">            msgData</span><span style="color:#89DDFF;">:{}</span><span style="color:#A6ACCD;"> </span><span style="color:#676E95;font-style:italic;">// 数据库相应字段解密</span></span>
 <span class="line"><span style="color:#A6ACCD;">            ...</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 前端展示需要的数据</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 简单的数据可以直接写 html 字段</span></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 复杂的如 微信分享卡片 建议在 Show 中写好组件, 然后读取下面数据填充</span></span>
-<span class="line"><span style="color:#A6ACCD;">        data:</span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">data</span><span style="color:#89DDFF;">&quot;</span><span style="color:#A6ACCD;">:</span><span style="color:#89DDFF;">{</span></span>
 <span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">webUrl</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">/data/qq-android-lqzh/emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">packName</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">甜橙少女新年系列</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#A6ACCD;">            </span><span style="color:#89DDFF;">&quot;</span><span style="color:#F78C6C;">desc</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">吃饺子</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">,</span></span>
@@ -55,7 +58,7 @@ import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">},</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#676E95;font-style:italic;">// 资源文件 根文件夹   /data/ $rootPath /emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif</span></span>
-<span class="line"><span style="color:#A6ACCD;">        rootPath</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> \`qq-android-lqzh\`</span><span style="color:#89DDFF;">,</span></span>
+<span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">&quot;</span><span style="color:#FFCB6B;">rootPath</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> \`qq-android-lqzh\`</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">},</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#676E95;font-style:italic;">// 开发过程相关值,</span></span>

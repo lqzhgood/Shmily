@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as o}from"./app.8b7ce87a.js";const m=JSON.parse('{"title":"这是啥","description":"","frontmatter":{},"headers":[],"relativePath":"guide/what-is.md","lastUpdated":1676172138000}'),p={name:"guide/what-is.md"},r=o("",13),s=[r];function i(l,_,c,h,d,n){return a(),t("div",null,s)}const f=e(p,[["render",i]]);export{m as __pageData,f as default};
