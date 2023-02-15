@@ -14,7 +14,7 @@
 
 -   `QQ` QQ 电脑版
 
-    -   [mht 格式聊天记录](https://github.com/lqzhgood/https://github.com/lqzhgood/Shmily-Get-QQ-PC_MHT)
+    -   [mht 格式聊天记录](https://github.com/lqzhgood/Shmily-Get-QQ-PC_MHT)
     -   [通过剪贴板导出](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard)
 
 -   `MobileQQ` QQ 手机版
