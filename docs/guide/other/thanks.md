@@ -24,4 +24,5 @@
 -   https://github.com/chg-hou/EnMicroMsg.db-Password-Cracker
 -   https://webd.cf/
 -   https://github.com/antvis
+-   https://sourceforge.net/projects/nbuexplorer/
 -   ...
