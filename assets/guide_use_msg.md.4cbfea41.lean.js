@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as l}from"./app.8b7ce87a.js";const i=JSON.parse('{"title":"数据文件","description":"","frontmatter":{},"headers":[],"relativePath":"guide/use/msg.md","lastUpdated":1676465212000}'),o={name:"guide/use/msg.md"},p=l("",6),t=[p];function e(c,D,r,y,F,C){return a(),n("div",null,t)}const u=s(o,[["render",e]]);export{i as __pageData,u as default};
