@@ -29,7 +29,7 @@ export default defineConfig({
 
     themeConfig: {
         logo: '/favicon.png',
-        nav: [{ text: 'Demo', link: 'http://demo.shmily.lqzh.me/' }],
+        nav: [{ text: 'Demo演示地址', link: 'http://demo.shmily.lqzh.me/' }],
         sidebar: [
             {
                 text: '指南',

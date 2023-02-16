@@ -10,10 +10,10 @@ hero:
         alt: VitePress
     actions:
         - theme: brand
-          text: Get Started
+          text: 开始文档
           link: /guide/what-is
         - theme: alt
-          text: Demo
+          text: Demo演示
           link: http://demo.shmily.lqzh.me/
 features:
     - icon: 🎯
