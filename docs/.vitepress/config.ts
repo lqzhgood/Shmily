@@ -109,4 +109,10 @@ export default defineConfig({
             next: "下一页",
         },
     },
+
+    vite: {
+        ssr: {
+            noExternal: ["vue-select"],
+        },
+    },
 });
