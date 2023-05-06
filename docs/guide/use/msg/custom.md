@@ -13,7 +13,8 @@
 
             $DingTalk: {
                 "os":    "Android",
-                "raw": { } // "数据的原始样貌"
+                "raw": { } // 数据的原始样貌
+                "key": {} // 解密过程中有帮助的值或备注
                 "res": {} // 和 raw  key一一对应, value 为解密后的数据   如未加密则  raw =res
                 "data": {} // 前端组件显示所需要的数据
                 "rootPath" ///  /data/ $rootPath /img/123.png 资源文件夹名称
