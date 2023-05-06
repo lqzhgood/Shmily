@@ -1,15 +1,20 @@
 {
     "scripts": {
-        "dev": "vitepress dev docs",
+        "dev": "vitepress dev docs --host",
         "build": "vitepress build docs",
         "serve": "vitepress serve docs"
     },
     "dependencies": {
-        "vitepress": "^1.0.0-alpha.40",
-        "vue": "^3.2.45"
+        "lodash": "^4.17.21",
+        "vitepress": "^1.0.0-alpha.75",
+        "vue": "^3.2.47",
+        "vue-select": "^4.0.0-beta.6"
     },
     "engines": {
         "npm": ">=7.0.0",
         "node": ">=16.0.0"
+    },
+    "devDependencies": {
+        "sass": "^1.62.1"
     }
 }
