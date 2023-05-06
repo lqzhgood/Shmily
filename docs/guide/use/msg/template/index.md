@@ -5,10 +5,9 @@
 #### from JSON
 
 <script setup>
-import  VueSelect from "vue-select";
+import { onMounted, reactive, computed } from 'vue'
 import _ from "lodash";
-import {  computed,  reactive, onMounted  } from 'vue'
-
+import   VueSelect from "vue-select";
 
 onMounted(async () => {
      msgJson = await  fetch('http://demo.shmily.lqzh.me/json/msg/msg.json').then(d=>
@@ -49,8 +48,6 @@ onMounted(async () => {
     menu.push(...res);
 })
 
-
-
 let msgJson = [];
 const menu = reactive([]);
 const f = reactive({source:'',type:'',os:''})
@@ -65,9 +62,6 @@ const json = computed(() => {
     return res.filter(v=>v[`$${s}`].os === f.os)
 })
 
-
-
-
 function empty(m){
     if (m==='source'){
         f.type = '';
@@ -81,12 +75,7 @@ function empty(m){
     }
 }
 
-
-
-
 </script>
-
-<!-- <button :class="$style.button" @click="count++">Increment</button> -->
 
 <div id="msg-template">
     <div class="row">
@@ -106,9 +95,7 @@ function empty(m){
 </div>
 
 ```js-vue
-
-{{json.slice(0,1)}}
-
+{{json.slice(0, 1)}}
 ```
 
 <style lang="sass">
@@ -122,8 +109,6 @@ function empty(m){
             flex: 1 0 33%
             &.disable
                 opacity: 0
-
-
 </style>
 
 ### from Demo web
