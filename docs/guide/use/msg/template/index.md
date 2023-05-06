@@ -10,7 +10,7 @@ import _ from "lodash";
 import   VueSelect from "vue-select";
 
 onMounted(async () => {
-     msgJson = await  fetch('http://demo.shmily.lqzh.me/json/msg/msg.json').then(d=>
+     msgJson = await  fetch('https://demo.shmily.lqzh.me/json/msg/msg.json').then(d=>
     d.json()
     )
     const res = msgJson.reduce((pre, cV, cI, arr) => {
