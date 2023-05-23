@@ -40,4 +40,4 @@
             ...
         }
     ```
-    [Shmily-Show](https://github.com/lqzhgood/Shmily-Show/) 应该不用改动，或改动极小
+    [Shmily-Show](https://github.com/lqzhgood/Shmily-Show/) 不用添加组件，可直接使用
