@@ -42,6 +42,14 @@ export default defineConfig({
                 ],
             },
             {
+                text: "使用说明",
+                items: [
+                    { text: "Get", link: "/guide/use/get" },
+                    { text: "Merger", link: "/guide/use/merger" },
+                    { text: "Show", link: "/guide/use/show" },
+                ],
+            },
+            {
                 text: "数据格式",
                 items: [
                     {
@@ -63,14 +71,6 @@ export default defineConfig({
                         ],
                     },
                     { text: "Shmily-Data", link: "/guide/use/data" },
-                ],
-            },
-            {
-                text: "使用说明",
-                items: [
-                    { text: "Get", link: "/guide/use/get" },
-                    { text: "Merger", link: "/guide/use/merger" },
-                    { text: "Show", link: "/guide/use/show" },
                 ],
             },
             {
