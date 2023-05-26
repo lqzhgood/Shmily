@@ -54,7 +54,7 @@ export default defineConfig({
                 items: [
                     {
                         text: "Shmily-Msg",
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             {
                                 text: "标准",
