@@ -74,7 +74,8 @@
         },
 
         // 资源文件 根文件夹   /data/ $rootPath /emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif
-        "rootPath": `qq-android-lqzh`,
+        // 建议加上时间，便于和以后导出的数据合并
+        "rootPath": `qq-android-lqzh-20230101`, 
     },
 
     // 开发过程相关值,
