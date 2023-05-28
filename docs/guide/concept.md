@@ -67,10 +67,9 @@ MobileQQ: 导出数据库 ->              解密资源(图片等)               
 
 让过程变为 4 个部分后
 
--   完全解耦, 便于各种二开造轮子,
-
+-   完全解耦, 便于各种二开造轮子, 便于各个阶段变为轮子
 -   展示部分脱离传统 HTML 模板, 使用现代 Web 框架后展示上有了更多可能性. 更多 `Show` 的问答参考 [Shmily-Show/docs/Q_A.md](https://github.com/lqzhgood/Shmily-Show/blob/main/docs/Q_A.md)
--   各种各样的 Get 都可以融合在一个 Show 中时间线展示
+-   多种类、多批次的 Get 都可以融合在一个 Show 中时间线展示
 
 ### 问题
 
