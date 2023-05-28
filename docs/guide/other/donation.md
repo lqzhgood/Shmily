@@ -4,14 +4,16 @@
 
 ！！！ [_小熊猫_](https://baike.baidu.com/item/%E5%B0%8F%E7%86%8A%E7%8C%AB/22379) 是世界上最可爱的动物 ！！！ XD
 
-<script setup>
-const isNotGitHubMD = !location.hostname.includes("github");
-</script>
+ 
+<div v-if="!location.hostname.includes("github")">
+    <video src="./assets/Ailurus.mp4" controls></video>
+</div> 
+    
+<!-- hack github video -->
+<div v-else>    
+    
+https://github.com/lqzhgood/Shmily/assets/9134671/e888e999-c299-4731-9b77-6d3f60200dbb
 
-<div>
-    <video v-if="isNotGitHubMD" src="./assets/Ailurus.mp4" controls></video>
-    <!-- hack github video -->
-    <div v-else>https://github.com/lqzhgood/Shmily/assets/9134671/e888e999-c299-4731-9b77-6d3f60200dbb</div>
 </div>
 
 https://www.bilibili.com/video/BV1qy4y1s7SJ/
