@@ -17,7 +17,7 @@
 <hr />
 
 <div style="text-align:center;">
-    贱的那个是小浣熊, 萌的那个是小熊猫
+    贱的那个是 <b>小浣熊</b>, 萌的那个是 <b>小熊猫</b>
 </div>
 
 ![red-panda](./assets/red-panda.jpg)
