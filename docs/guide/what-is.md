@@ -17,7 +17,13 @@
 
 总之我把 _归档_ 这事 "前后端" 分离了, 后端叫 [Get](./use/get.md), 前端叫 [Show](./use/show.md), 中间用 `<JSON>`[Msg](./use/msg/schema.md) 粘合
 
-少啰嗦，先看东西 [Demo](http://demo.shmily.lqzh.me/)
+少啰嗦，先看[Demo](http://demo.shmily.lqzh.me/)
+
+<div align="center">
+    <img src="https://github.com/lqzhgood/Shmily-Show-Demo/raw/page/screenshots/query.png">
+    <div>&nbsp;</div>
+    <img src="https://github.com/lqzhgood/Shmily-Show-Demo/raw/page/screenshots/statistic.png">
+</div>
 
 <hr/>
 
@@ -25,8 +31,6 @@
 
 不支持用户数据导出的公司都是耍流氓~
 
-<hr />
-
+::: tip Adun Toridas
 今天，我们将夺回我们的家园，夺回我们的遗产！
-
-Adun Toridas
+:::
