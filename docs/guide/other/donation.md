@@ -5,7 +5,7 @@
 ！！！ [_小熊猫_](https://baike.baidu.com/item/%E5%B0%8F%E7%86%8A%E7%8C%AB/22379) 是世界上最可爱的动物 ！！！ XD
 
  
-<div v-if="!location.hostname.includes("github")">
+<div v-if="true">
     <video src="./assets/Ailurus.mp4" controls></video>
 </div> 
     
