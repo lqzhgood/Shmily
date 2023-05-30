@@ -20,9 +20,9 @@
 少啰嗦，先看[Demo](http://demo.shmily.lqzh.me/)
 
 <div align="center">
-    <img src="https://github.com/lqzhgood/Shmily-Show-Demo/raw/page/screenshots/query.png">
+    <a target="_blank" href="http://demo.shmily.lqzh.me/"><img src="https://github.com/lqzhgood/Shmily-Show-Demo/raw/page/screenshots/query.png"></a>
     <div>&nbsp;</div>
-    <img src="https://github.com/lqzhgood/Shmily-Show-Demo/raw/page/screenshots/statistic.png">
+    <a target="_blank" href="http://demo.shmily.lqzh.me/#/statistic"><img src="https://github.com/lqzhgood/Shmily-Show-Demo/raw/page/screenshots/statistic.png"></a>
 </div>
 
 <hr/>
