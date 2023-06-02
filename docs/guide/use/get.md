@@ -23,7 +23,8 @@
     -   [Nokia Symbian S60v3](https://github.com/lqzhgood/Shmily-Get-MobileQQ-S60v3)
 
 -   `Wechat` 微信
-    -   [Android](https://github.com/lqzhgood/Shmily-Get-Wechat-Android)
+    -   [Android](https://github.com/lqzhgood/Shmily-Get-Wechat)
+    -   iOS 施工中
 -   `SMS` `CallLog` 短信与通话记录
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android)
     -   [GoogleCalendar](https://github.com/lqzhgood/Shmily-Get-Call_SMS-calendar_google_com)
