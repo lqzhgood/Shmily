@@ -68,6 +68,16 @@ export default defineConfig({
                                 text: "自定义",
                                 link: "/guide/use/msg/custom",
                             },
+                            {
+                                text: "其他",
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: "表情数据",
+                                        link: "/guide/use/msg/other/emotion",
+                                    },
+                                ],
+                            },
                         ],
                     },
                     { text: "Shmily-Data", link: "/guide/use/data" },
