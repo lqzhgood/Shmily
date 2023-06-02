@@ -67,13 +67,14 @@
         // 简单的数据可以直接写 html 字段
         // 复杂的如 微信分享卡片 建议在 Show 中写好组件, 然后读取下面数据填充
         "data":{
-            "webUrl": "/data/qq-android-lqzh/emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif",
+            "webUrl": "./emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif",
             "packName": "甜橙少女新年系列",
             "desc": "吃饺子",
             "mark": "过年喽，想要的祝福全在这里"
         },
 
-        // 资源文件 根文件夹   /data/ $rootPath /emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif
+        //  资源文件 根文件夹   资源路径
+        //  /data/  $rootPath  ./emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif
         // 建议加上时间，便于和以后导出的数据合并
         "rootPath": `qq-android-lqzh-20230101`, 
     },
