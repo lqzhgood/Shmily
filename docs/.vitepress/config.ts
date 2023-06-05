@@ -90,6 +90,7 @@ export default defineConfig({
                     { text: "nodejs", link: "/guide/setup-runtime/nodejs" },
                     { text: "python", link: "/guide/setup-runtime/python" },
                     { text: "java", link: "/guide/setup-runtime/java" },
+                    { text: "php", link: "/guide/setup-runtime/php" },
                 ],
             },
             {
