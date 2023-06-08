@@ -91,6 +91,7 @@ export default defineConfig({
                     { text: "python", link: "/guide/setup-runtime/python" },
                     { text: "java", link: "/guide/setup-runtime/java" },
                     { text: "php", link: "/guide/setup-runtime/php" },
+                    { text: "docker", link: "/guide/setup-runtime/docker" },
                 ],
             },
             {
