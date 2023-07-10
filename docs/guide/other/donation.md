@@ -30,9 +30,9 @@ https://www.bilibili.com/video/BV1qy4y1s7SJ/
 
 <hr />
 
-<div>
+<div align="center">
     <img src="./assets/taobao.svg" style="max-width: 50px" />
-    如果觉得太麻烦，可以付费代劳。<a target="_blank" href="https://item.taobao.com/item.htm?id=728114268640">淘宝店地址</a>
+    <div>如果觉得太麻烦，可以付费代劳。<a target="_blank" href="https://item.taobao.com/item.htm?id=728114268640">淘宝店地址</a></div>
 </div>
 
 <hr />
