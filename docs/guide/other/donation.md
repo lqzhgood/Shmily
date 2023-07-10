@@ -4,14 +4,13 @@
 
 ！！！ [_小熊猫_](https://baike.baidu.com/item/%E5%B0%8F%E7%86%8A%E7%8C%AB/22379) 是世界上最可爱的动物 ！！！ XD
 
- 
 <div v-if="true">
     <video src="./assets/Ailurus.mp4" controls></video>
-</div> 
-    
+</div>
+
 <!-- hack github video -->
-<div v-else>    
-    
+<div v-else>
+
 https://github.com/lqzhgood/Shmily/assets/9134671/e888e999-c299-4731-9b77-6d3f60200dbb
 
 </div>
@@ -27,6 +26,13 @@ https://www.bilibili.com/video/BV1qy4y1s7SJ/
     <!-- hack github margin -->
     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
     <img src="./assets/pay_wx.png" />
+</div>
+
+<hr />
+
+<div>
+    <img src="./assets/taobao.svg" style="max-width: 50px" />
+    如果觉得太麻烦，可以付费代劳。<a target="_blank" href="https://item.taobao.com/item.htm?id=728114268640">淘宝店地址</a>
 </div>
 
 <hr />
