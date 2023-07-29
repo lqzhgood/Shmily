@@ -15,7 +15,7 @@
 >
 > 手机忙得最多的就是加解密吧... 表情包都要加密 2 次呢
 
-总之我把 _归档_ 这事 "前后端" 分离了, 后端叫 [Get](./use/get.md), 前端叫 [Show](./use/show.md), 中间用 `<JSON>`[Msg](./use/msg/schema.md) 粘合
+总之我把 _归档_ 这事 "导出" 和 "显示" 分离了, 导出叫 [Get](./use/get.md), 显示叫 [Show](./use/show.md), 中间用 `<JSON>`[Msg](./use/msg/schema.md) 粘合
 
 少啰嗦，先看[Demo](http://demo.shmily.lqzh.me/)
 
