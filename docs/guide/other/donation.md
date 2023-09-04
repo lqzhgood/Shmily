@@ -21,6 +21,8 @@ https://www.bilibili.com/video/BV1qy4y1s7SJ/
 
 如果您觉得这个项目对你有帮助, 欢迎投币请我去动物园看 [_小熊猫_](https://baike.baidu.com/item/%E5%B0%8F%E7%86%8A%E7%8C%AB/22379)
 
+<i color="#333">`请在备注内包含 Shmily 字样`</i> 
+
 <div align="center" style="text-align:center;display: flex;justify-content: center;">
     <img src="./assets/pay_al.png" />
     <!-- hack github margin -->
@@ -44,3 +46,14 @@ https://www.bilibili.com/video/BV1qy4y1s7SJ/
 ![red-panda](./assets/red-panda.jpg)
 
 </div>
+
+<hr />
+
+<div align="center">
+    <p>门票公示</p>
+    <table style="text-align:center;" >
+        <tr> <th>时间</th> <th>姓名</th> <th>金额</th> <th>来源</th> </tr>
+        <tr> <td>2023/09/03 17:12:36</td> <td>*门</td> <td>10</td> <td>Wechat</td> </tr>
+    </table>
+</div>
+
