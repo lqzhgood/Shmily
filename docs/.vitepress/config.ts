@@ -98,7 +98,16 @@ export default defineConfig({
                 text: "其他",
                 items: [
                     { text: "感谢", link: "/guide/other/thanks" },
-                    { text: "捐赠", link: "/guide/other/donation" },
+                    {
+                        text: '捐赠', link: "/guide/other/donation",
+                        collapsed: true,
+                        items:[
+                            {
+                                text: '门票公示',
+                                link: "/guide/other/donation_list"
+                            }
+                        ]
+                    },
                 ],
             },
         ],
