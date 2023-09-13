@@ -71,6 +71,12 @@ hero:
                     font-size: 12px
                     color: #333
                     font-style: italic
+                a
+                    color: rgb(52, 81, 178)
+                    text-decoration: underline
+                    padding: 0 5px
+                    font-weight: bold
+                    font-style: italic
         .cover
             flex: 0 0 auto
             img
@@ -169,6 +175,7 @@ hero:
             <div class="content">
                 <h2 class="title">开发</h2>
                 <div>
+                    <p>深入底层<a href="https://github.com/lqzhgood/Shmily-Show/blob/main/docs/Q_A.md" target="_blank">优化</a>，240M数据纯前端静态处理</p>
                     <p>你还想要归档钉钉？导出（Get）、显示（Show）分离，你可以在任意阶段发力</p>
                     <p>标准化、模块化、组件化，开发更容易</p>
                     <p>数据字段全导出，总有你能用上的</p>
