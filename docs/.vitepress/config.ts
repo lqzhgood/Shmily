@@ -24,6 +24,16 @@ export default defineConfig({
                 })();
             `,
         ],
+        // [
+        //     "style",
+        //     {},
+        //     `
+        //         body {
+        //             background: radial-gradient(transparent,rgba(0,0,0,.3)),url(./assets/bg.jpg);
+        //             background-attachment: fixed;
+        //         }
+        //     `
+        // ]
     ],
 
     title: "Shmily",
