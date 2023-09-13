@@ -39,7 +39,7 @@ hero:
     margin: 0 auto
     max-width: 1000px
     background: rgba(255,255,255,0.7)
-    padding: 20px
+    padding: 0 20px
     box-sizing: content-box
     border-radius: 10px
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
