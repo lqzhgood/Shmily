@@ -4,7 +4,7 @@ layout: home
 hero:
     name: SHMILY
     text: 历史的归档
-    tagline: QQ、Wechat、SMS、Email……
+    tagline: QQ、Wechat、SMS、CallLog、Email……
     image:
         src: ./favicon.png
         alt: icon
