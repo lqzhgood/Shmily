@@ -9,3 +9,8 @@
 文档地址 http://lqzhgood.github.io/Shmily
 
 Demo 地址 http://github.com/lqzhgood/Shmily-Show-Demo
+
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
