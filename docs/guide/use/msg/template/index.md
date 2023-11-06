@@ -1,8 +1,20 @@
 # 数据文件-Msg 示例
 
-示例有以下三种查看方式
+示例有以下几种查看方式
 
-#### from JSON
+
+
+### 源码 (推荐)
+
+> 最及时最可靠
+
+在 [Shmily-Show](https://github.com/lqzhgood/Shmily-Show/) 项目 [memoryweb/src/components/Msg/source](https://github.com/lqzhgood/Shmily-Show/tree/main/memoryweb/src/components/Msg/source) 下查看组件源码
+
+
+
+### Demo
+
+> 更新不及时
 
 <script setup>
 import { onMounted, reactive, computed } from 'vue'
@@ -111,12 +123,7 @@ function empty(m){
                 opacity: 0
 </style>
 
-### from Demo web
-
 从 `Demo` [链接](http://demo.shmily.lqzh.me/#/query?searchType=消息&searchKey=-Reg:/*/) 筛选查看
 
 ![from demo web](./from-demo-web.png)
 
-### from 源码
-
-在 [Shmily-Show](https://github.com/lqzhgood/Shmily-Show/) 项目 [memoryweb/src/components/Msg/source](https://github.com/lqzhgood/Shmily-Show/tree/main/memoryweb/src/components/Msg/source) 下查看组件源码
