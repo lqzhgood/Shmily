@@ -38,4 +38,4 @@ Node.js v18.14.0
 
 ##### 解决办法
 
-`nodejs` 没有安装依赖, 参考 [setup-nodejs](./nodejs.md)
+`nodejs` 没有安装依赖, 参考 [setup-nodejs](../nodejs.md)
