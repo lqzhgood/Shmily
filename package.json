@@ -7,8 +7,8 @@
     },
     "dependencies": {
         "lodash": "^4.17.21",
-        "vitepress": "^1.0.0-rc.10",
-        "vue": "^3.3.4",
+        "vitepress": "^1.0.0-rc.25",
+        "vue": "^3.3.8",
         "vue-select": "^4.0.0-beta.6"
     },
     "engines": {
@@ -16,6 +16,7 @@
         "node": ">=16.0.0"
     },
     "devDependencies": {
-        "sass": "^1.66.1"
+        "@types/node": "^20.9.0",
+        "sass": "^1.69.5"
     }
 }
