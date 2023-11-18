@@ -15,8 +15,9 @@
     -   [Nokia Symbian S60v3](https://github.com/lqzhgood/Shmily-Get-MobileQQ-S60v3)
 
 -   `Wechat` 微信
+
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Wechat)
-    
+
 -   `SMS` `CallLog` 短信与通话记录
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android)
     -   [GoogleCalendar](https://github.com/lqzhgood/Shmily-Get-Call_SMS-calendar_google_com)
@@ -32,7 +33,7 @@
 
 大部分项目并不会打包为开箱即用的 `"exe"`
 
-如果您非程序员, 下面将简单讲解 **通用** 启动方式
+如果您非程序员, 下面将简单讲解 **通用** 的步骤
 
 ### 1. 下载项目
 
@@ -52,16 +53,16 @@ Github 为例, 点击下图中 `Download ZIP` 即可下载当前项目源码
 
 -   [java](../setup-runtime/java) (大量 `.java` 后缀文件)
 
-### 3. 根据项目说明执行 Get
+### 3. 获取数据
 
-从 <b>支持列表</b> 中点击所需项目, 按照相应的文档操作
+从 [支持列表](./get.md#支持列表) 中点击所需项目, 按照相应的文档操作
 
-### 4. 获取数据
+### 4. 得到数据
 
-执行相应的 Get 项目, 可以在输出目录（一般是 `dist`）获得
+可以在输出目录（一般是 `dist`）获得
 
 ```
-// 结构示例 
+// 结构示例
 // 由于历史原因，可能有部分 Get 输出并未遵循此规则，慢慢重构吧
 
 - dist
@@ -82,26 +83,24 @@ Github 为例, 点击下图中 `Download ZIP` 即可下载当前项目源码
 
     [Shmily-Msg](./msg/schema.md) 格式的 JSON 文件，内容是从数据(库)导出的消息内容。
 
-    <details> 
+    <details>
         <summary> 给开发者的一些建议</summary>
-        
+
         -   尽量导出消息相关的所有数据而非所需数据, 这样会给其他人带来帮助, 也便于丰富更多信息
         -   尽量补充完整信息, 如 自定义表情, 补充 表情包名称 与 描述, 对于统计来说更准确全面
-    
+
     </details>
 
 -   `资源文件`
-    
+
     消息相关的静态资源文件,如图片、表情、视频等
 
-    <details> 
+    <details>
         <summary> 给开发者的一些建议</summary>
-    
+
         -   对于外链的资源，建议能爬下来的资源(如图片)都本地化, 过个几年这些 URL 都打不开了
 
     </details>
-    
-
 
 ### 5. 展示
 
