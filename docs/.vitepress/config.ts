@@ -51,13 +51,26 @@ export default defineConfig({
             {
                 text: '使用说明',
                 items: [
+                    { text: '开始吧', link: '/guide/use/begin' },
                     { text: 'Get', link: '/guide/use/get' },
                     { text: 'Merger', link: '/guide/use/merger' },
                     { text: 'Show', link: '/guide/use/show' },
                 ],
             },
             {
-                text: '数据格式',
+                text: '安装运行时环境',
+                collapsed: true,
+                items: [
+                    { text: 'nodejs', link: '/guide/setup-runtime/nodejs' },
+                    { text: 'python', link: '/guide/setup-runtime/python' },
+                    { text: 'java', link: '/guide/setup-runtime/java' },
+                    { text: 'php', link: '/guide/setup-runtime/php' },
+                    { text: 'docker', link: '/guide/setup-runtime/docker' },
+                    { text: '常见问题', link: '/guide/setup-runtime/Q&A' },
+                ],
+            },
+            {
+                text: '开发-数据格式',
                 items: [
                     {
                         text: 'Shmily-Msg',
@@ -88,18 +101,6 @@ export default defineConfig({
                         ],
                     },
                     { text: 'Shmily-Data', link: '/guide/use/data' },
-                ],
-            },
-            {
-                text: '安装运行时环境',
-                collapsed: true,
-                items: [
-                    { text: 'nodejs', link: '/guide/setup-runtime/nodejs' },
-                    { text: 'python', link: '/guide/setup-runtime/python' },
-                    { text: 'java', link: '/guide/setup-runtime/java' },
-                    { text: 'php', link: '/guide/setup-runtime/php' },
-                    { text: 'docker', link: '/guide/setup-runtime/docker' },
-                    { text: '常见问题', link: '/guide/setup-runtime/Q&A' },
                 ],
             },
             {

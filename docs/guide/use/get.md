@@ -1,5 +1,7 @@
 # Get
 
+从 [支持列表](./get.md#支持列表) 中选择所需项目, 按照相应的文档操作
+
 ## 支持列表
 
 下面列出现有已知的 Get 项目, 更多项目可在 `Github` 搜索 [`Shmily-Get-`](https://github.com/search?q=Shmily-Get-&type=repositories)
@@ -29,41 +31,12 @@
 -   `EMAIL` 电子邮件
     -   [电子邮件](https://github.com/lqzhgood/Shmily-Get-Email)
 
-## 开始项目
+## 产物结构
 
-大部分项目并不会打包为开箱即用的 `"exe"`
-
-如果您非程序员, 下面将简单讲解 **通用** 的步骤
-
-### 1. 下载项目
-
-Github 为例, 点击下图中 `Download ZIP` 即可下载当前项目源码
-![down repo](./assets/down_repo.png)
-
-### 2. 安装项目运行时环境
-
-根据不同的项目语言安装不同的运行时环境, `Github` 会自动标注主要语言
-![what-languages](./assets/what-languages.png)
-
-也可以按照下面列出的特性, 安装对应语言的运行时
-
--   [nodejs](../setup-runtime/nodejs) (项目中有 `package.json` 文件)
-
--   [python](../setup-runtime/python) (大量 `.py` 后缀文件)
-
--   [java](../setup-runtime/java) (大量 `.java` 后缀文件)
-
-### 3. 获取数据
-
-从 [支持列表](./get.md#支持列表) 中点击所需项目, 按照相应的文档操作
-
-### 4. 得到数据
-
-可以在输出目录（一般是 `dist`）获得
+最终可以在输出目录（一般是 `dist`）获得 `数据文件` 和 `资源文件`
 
 ```
-// 结构示例
-// 由于历史原因，可能有部分 Get 输出并未遵循此规则，慢慢重构吧
+// 示例
 
 - dist
     - MobileQQ-lqzh-20230101.json  <--- 数据文件
@@ -74,7 +47,7 @@ Github 为例, 点击下图中 `Download ZIP` 即可下载当前项目源码
         - videos
            ...
 
-    - _temp                        <--- 输出过程中的一些信息，如下载错误的文件等
+    - _temp                        <--- 输出过程中的一些信息，如下载错误的列表等
       - DOWN_ERROR.json
       - XXXX.json
 ```
@@ -101,7 +74,3 @@ Github 为例, 点击下图中 `Download ZIP` 即可下载当前项目源码
         -   对于外链的资源，建议能爬下来的资源(如图片)都本地化, 过个几年这些 URL 都打不开了
 
     </details>
-
-### 5. 展示
-
-[参考 Show 文档](./show.md)
