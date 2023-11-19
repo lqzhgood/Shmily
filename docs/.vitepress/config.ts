@@ -58,7 +58,7 @@ export default defineConfig({
                 ],
             },
             {
-                text: '安装运行时环境',
+                text: '运行时环境的安装',
                 collapsed: true,
                 items: [
                     { text: 'nodejs', link: '/guide/setup-runtime/nodejs' },
