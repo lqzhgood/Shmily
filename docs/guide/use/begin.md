@@ -29,27 +29,14 @@
 Github 为例, 点击下图中 `Download ZIP` 即可下载当前项目源码
 ![down repo](./assets/down_repo.png)
 
-### 2. 安装项目运行时环境
-
-根据不同的项目语言安装不同的运行时环境, `Github` 会自动标注主要语言
-![what-languages](./assets/what-languages.png)
-
-也可以按照下面列出的特性, 安装对应语言的运行时
-
--   [nodejs](../setup-runtime/nodejs) (项目中有 `package.json` 文件)
-
--   [python](../setup-runtime/python) (大量 `.py` 后缀文件)
-
--   [java](../setup-runtime/java) (大量 `.java` 后缀文件)
-
-### 3. Get-获取数据
+### 2. Get-获取数据
 
 [参考 Get 文档](./get.md)
 
-### 4. Merger-合并数据 (可选)
+### 3. Merger-合并数据 (可选)
 
 [参考 Merger 文档](./merger.md)
 
-### 5. Show-展示数据
+### 4. Show-展示数据
 
 [参考 Show 文档](./show.md)
