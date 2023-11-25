@@ -132,8 +132,7 @@
    ![open_cmd](../setup-runtime/assets/open_cmd.png)
    然后运行 `npm run build` (确保是当前项目目录下 D:\Shmily-Get-QQ-PC_MHT-main)
    ![cmd_run](../setup-runtime/assets/cmd_run.png)
-5. 复制 merger 里的文件到 \dist\data\
-6. dist 获取 数据文件 和 资源文件
+5. dist 获取 数据文件 和 资源文件
 
     ```
     // 文件夹结构
