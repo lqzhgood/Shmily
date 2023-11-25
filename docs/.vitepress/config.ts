@@ -96,7 +96,15 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                     { text: '说明', link: '/guide/setup-runtime/explain' },
-                    { text: 'nodejs', link: '/guide/setup-runtime/nodejs' },
+                    {
+                        text: 'nodejs',
+                        collapsed: true,
+                        items: [
+                            { text: '安装nodejs', link: '/guide/setup-runtime/nodejs' },
+                            { text: '安装依赖', link: '/guide/setup-runtime/nodejs-dependencies' },
+                            { text: '启动程序', link: '/guide/setup-runtime/nodejs-start' },
+                        ],
+                    },
                     { text: 'python', link: '/guide/setup-runtime/python' },
                     { text: 'java', link: '/guide/setup-runtime/java' },
                     { text: 'php', link: '/guide/setup-runtime/php' },
@@ -145,7 +153,5 @@ export default defineConfig({
         },
     },
 
-    ignoreDeadLinks: [
-        /\/nodejs/,
-    ]
+    ignoreDeadLinks: [/\/nodejs/],
 });
