@@ -144,4 +144,8 @@ export default defineConfig({
             noExternal: ['vue-select'],
         },
     },
+
+    ignoreDeadLinks: [
+        /\/nodejs/,
+    ]
 });
