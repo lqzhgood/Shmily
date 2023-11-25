@@ -3,11 +3,46 @@
 ## 1. 安装 nodejs
 
 -   查看 `package.json` 中 `engines` 字段获取项目所需 `nodejs` 版本
--   从 `https://nodejs.org/dist/` 下载相应版本的 `nodejs`
     -   如果没有 `engines` 字段，从官网 `https://nodejs.org/` 下载 `LTS` 版本
+-   从 `https://nodejs.org/dist/` 下载相应版本的 `nodejs`
+    -  Windows 平台注意事项
+       -  请下载 `.msi` 后缀的标准安装程序(如 `node-v99.99.9-x64.msi`), 以下均不推荐
+          -  `node-v99.9.9-win-x64.7z / node-v99.9.9-win-x64.zip` 为绿色版, 需要自己配置 `Path` 环境变量
+          -  `./win-x64/node.exe` 为绿色单文件
 -   安装过程，选项全部默认
 
 ## 2. 安装项目依赖
+
+下面提供 `从项目下载` 和 `从本地安装` 两种方式, 二选一即可
+
+### 2.1 从项目下载 (建议)
+
+
+<details>
+
+![从项目下载依赖](./assets/node-dependencies.png)
+
+可以查看项目是否有 `node_modules` 分支, 如果有, 可以直接下载其中的压缩包并解压到项目目录
+
+```
+// 解压后项目文件夹结构
+
+-\
+  - node_modules
+    - .bin
+    - ...
+  - package.json
+  - README.md
+  - ...
+
+```
+
+</details>
+
+
+### 2.2 从本地安装
+
+<details>
 
 <!--@include: ./snippets/open_cmd.md-->
 
@@ -16,11 +51,13 @@
     npm i
     ```
 ::: warning
-如果安装以来过程中大量报错，特别是有 `node-gyp` 字样的，可以查看项目是否有 `node_modules` 分支, 如果有可以解压到项目目录 `.\node_modules` 下， 可以解决依赖问题
+如果安装以来过程中大量报错，特别是有 `node-gyp` 字样的，建议使用 [2.1 从项目下载] 的方式解决
 
 其他的参考报错提示处理
 :::
-    
+
+
+</details>
 
 ## 3. 启动程序
 
