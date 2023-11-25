@@ -1,6 +1,6 @@
 # 安装 nodejs
 
--   查看 `package.json` 中 `engines` 字段获取项目所需 `nodejs` 版本
+-   查看项目中 `package.json` 中 `engines` 字段获取项目所需 `nodejs` 版本
     -   如果没有 `engines` 字段，从官网 `https://nodejs.org/` 下载 `LTS` 版本
 -   从 `https://nodejs.org/dist/` 下载相应版本的 `nodejs`
 
