@@ -6,9 +6,13 @@
 
 下面列出现有已知的 Get 项目, 更多项目可在 `Github` 搜索 [`Shmily-Get-`](https://github.com/search?q=Shmily-Get-&type=repositories)
 
+::: tip
+有 🎞️ 标记的在项目文档中均包含视频教程
+:::
+
 -   `QQ` QQ 电脑版
 
-    -   [mht 格式聊天记录](https://github.com/lqzhgood/Shmily-Get-QQ-PC_MHT)
+    -   🎞️ [mht 格式聊天记录](https://github.com/lqzhgood/Shmily-Get-QQ-PC_MHT)
     -   [通过剪贴板导出](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard)
 
 -   `MobileQQ` QQ 手机版
