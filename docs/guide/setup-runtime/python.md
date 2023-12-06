@@ -1,9 +1,5 @@
 # 开始 Python 项目
 
-::: tip 视频教程 
-[https://www.bilibili.com/video/BV1t94y1E7VT/](https://www.bilibili.com/video/BV1dc411q7bh/)
-:::
-
 ## 1. 安装 python
 
 -   进入[官网](https://www.python.org/downloads/)下载

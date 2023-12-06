@@ -1,5 +1,9 @@
 # 开始 PHP 项目
 
+::: tip 🎞️ 视频教程
+[https://www.bilibili.com/video/BV1t94y1E7VT/](https://www.bilibili.com/video/BV1dc411q7bh/)
+:::
+
 1. [官网](https://www.php.net/downloads) 下载 PHP
     > Windows 下载 VS16 x64 Thread Safe `.zip` 就行了
 2. 解压 `.zip` 到 `D:\php`

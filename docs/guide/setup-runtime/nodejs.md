@@ -1,6 +1,6 @@
 # 安装 nodejs
 
-::: tip 视频教程 
+::: tip 🎞️ 视频教程
 https://www.bilibili.com/video/BV1t94y1E7VT/
 :::
 
