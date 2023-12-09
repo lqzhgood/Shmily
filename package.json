@@ -7,6 +7,7 @@
     },
     "dependencies": {
         "lodash": "^4.17.21",
+        "md5": "^2.3.0",
         "vitepress": "^1.0.0-rc.31",
         "vue": "^3.3.8",
         "vue-select": "^4.0.0-beta.6"

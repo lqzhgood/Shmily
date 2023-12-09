@@ -127,6 +127,11 @@ export default defineConfig({
                 ],
             },
             {
+                text: '工具',
+                collapsed: true,
+                items: [{ text: 'Wechat', collapsed: true, items: [{ text: '计算数据库Key', link: '/guide/tools/Wechat/calc-wechat-key' }] }],
+            },
+            {
                 text: '其他',
                 items: [
                     { text: '感谢', link: '/guide/other/thanks' },
