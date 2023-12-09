@@ -109,6 +109,15 @@ export default defineConfig({
                     { text: 'java', link: '/guide/setup-runtime/java' },
                     { text: 'php', link: '/guide/setup-runtime/php' },
                     { text: 'docker', link: '/guide/setup-runtime/docker' },
+                    {
+                        text: 'Android',
+                        collapsed: true,
+                        items: [
+                            { text: '说明', link: '/guide/setup-runtime/Android-copy' },
+                            { text: '通过 root', link: '/guide/setup-runtime/Android-copy-root' },
+                            { text: '通过 备份', link: '/guide/setup-runtime/Android-copy-backup' },
+                        ],
+                    },
                     { text: '常见问题', link: '/guide/setup-runtime/Q&A' },
                 ],
             },
