@@ -118,6 +118,11 @@ export default defineConfig({
                             { text: '通过 备份', link: '/guide/setup-runtime/Android-copy-backup' },
                         ],
                     },
+                    {
+                        text: 'Github',
+                        collapsed: true,
+                        items: [{ text: '下载项目', link: '/guide/setup-runtime/github-down-repo' }],
+                    },
                     { text: '常见问题', link: '/guide/setup-runtime/Q&A' },
                 ],
             },
