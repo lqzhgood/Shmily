@@ -129,7 +129,10 @@ export default defineConfig({
             {
                 text: '工具',
                 collapsed: true,
-                items: [{ text: 'Wechat', collapsed: true, items: [{ text: '计算数据库Key', link: '/guide/tools/Wechat/calc-wechat-key' }] }],
+                items: [
+                    { text: 'Github 访问', link: '/guide/tools/Github/visit' },
+                    { text: 'Wechat', collapsed: true, items: [{ text: '计算数据库Key', link: '/guide/tools/Wechat/calc-wechat-key' }] },
+                ],
             },
             {
                 text: '其他',
