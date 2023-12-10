@@ -26,7 +26,7 @@ Android 手机的文件夹大致如下
 ::: tip 🎞️ 视频教程
 // Android 通过 ftp 复制文件到电脑
 
-https://www.bilibili.com/video/BV1t94y1E7VT/
+https://www.bilibili.com/video/BV1o94y1P7zo/
 :::
 
 
