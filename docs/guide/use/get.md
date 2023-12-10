@@ -22,7 +22,7 @@
 
 -   `Wechat` 微信
 
-    -   [Android](https://github.com/lqzhgood/Shmily-Get-Wechat)
+    -   🎞️ [Android](https://github.com/lqzhgood/Shmily-Get-Wechat)
 
 -   `SMS` `CallLog` 短信与通话记录
     -   [Android](https://github.com/lqzhgood/Shmily-Get-Call_SMS-Android)
