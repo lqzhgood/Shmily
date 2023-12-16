@@ -1,10 +1,14 @@
 # Show
 
+::: tip
+有 🎞️ 标记的在项目文档中均包含视频教程
+:::
+
 #### 显示 和 修改
 
 加工前面 Get 到的所有数据, 用于 显示 / 搜索 / 图表 / 统计 / 评论等~
 
--   https://github.com/lqzhgood/Shmily-Show/
+-   🎞️ https://github.com/lqzhgood/Shmily-Show/
 
 
 <hr />
