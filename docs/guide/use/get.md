@@ -17,7 +17,7 @@
 
 -   `MobileQQ` QQ 手机版
 
-    -   [Andriod](https://github.com/lqzhgood/Shmily-Get-MobileQQ-Andriod)
+    -   🎞️ [Andriod](https://github.com/lqzhgood/Shmily-Get-MobileQQ-Andriod)
     -   [Nokia Symbian S60v3](https://github.com/lqzhgood/Shmily-Get-MobileQQ-S60v3)
 
 -   `Wechat` 微信
