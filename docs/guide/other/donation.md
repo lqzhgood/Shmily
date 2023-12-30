@@ -28,7 +28,9 @@ https://www.bilibili.com/video/BV1qy4y1s7SJ/
     <img src="./assets/pay_wx.png" />
 </div>
 
-<i color="#333">`请在备注内包含` <b>Shmily</b> `字样`</i>
+<i color="#333">`请在备注内包含` <b>Shmily</b> `字样`</i> <br/>
+<i color="#333">`有问题请请发 Email 或 issues, 我没法通过收款码联系你的`</i>
+
 <br/>
 [门票公示](./donation_list.md)
 
