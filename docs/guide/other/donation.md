@@ -32,6 +32,7 @@ https://www.bilibili.com/video/BV1qy4y1s7SJ/
 <i color="#333">`有问题请请发 Email 或 issues, 我没法通过收款码联系你的`</i>
 
 <br/>
+
 [门票公示](./donation_list.md)
 
 <hr />
