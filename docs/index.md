@@ -93,7 +93,6 @@ hero:
                 padding: 0 !important
 </style>
 
-
 <div id="features">
     <div class="row">
         <div class="info">
@@ -123,6 +122,21 @@ hero:
         </div>
         <div class="cover">
             <img src="./assets/f2.png" style="max-width: 500px;" />
+        </div>
+    </div>
+      <div class="row">
+        <div class="info">
+            <div class="content">
+                <h2 class="title">数据全</h2>
+                <div>
+                    <p>记录中的图片、表情、视频等全下载到本地永留存</p>
+                    <p>数据库字段全导出, 不限于你看到的</p>
+                    <p class="tips">* 消息头像上点击右键, 即可在 F12 开发者模式中看到完整数据</p>
+                </div>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="./assets/f7.jpg" style="max-width: 400px;" />
         </div>
     </div>
     <div class="row">
