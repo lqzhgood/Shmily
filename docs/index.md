@@ -136,7 +136,7 @@ hero:
             </div>
         </div>
         <div class="cover">
-            <img src="./assets/f7.jpg" style="max-width: 400px;" />
+            <img src="./assets/f7.jpg" style="max-width: 300px;" />
         </div>
     </div>
     <div class="row">
